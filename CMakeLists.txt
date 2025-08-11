@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 3.10.2)
 
 ##### PLUGIN NAME #####
-set(pluginname gipECS)
+set(pluginname gipObject2DPlugin)
 
 
 ##### PLUGIN PATHS #####
@@ -11,7 +11,10 @@ set(PLUGIN_LIBS_DIR ${PLUGIN_DIR}/libs)
 
 ##### PLUGIN SOURCES #####
 list(APPEND PLUGIN_SRCS
-		#	${PLUGIN_DIR}/src/animation/SpriteAnimation.cpp
+			${PLUGIN_DIR}/src/animation/SpriteAnimation.cpp
+			${PLUGIN_DIR}/src/animation/SpriteAnimator.cpp
+			${PLUGIN_DIR}/src/datatypes/AnimationFrames.cpp
+			${PLUGIN_DIR}/src/datatypes/Frame.cpp
 )
 
 
