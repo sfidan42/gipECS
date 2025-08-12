@@ -1,4 +1,4 @@
-# gipObject2DPlugin
+# gipECS
 
 ## Description
 This is a plugin for GlistEngine that provides a 2D object that can be defined dynamically.
