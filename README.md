@@ -12,7 +12,7 @@ This is a plugin for GlistEngine that provides a 2D object that can be defined d
     )
     ```
 2. Example Code
-```
+```c++
 
 void gCanvas::setup() {
 
