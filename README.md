@@ -1,7 +1,7 @@
 # gipECS
 
 ## Description
-This is a plugin for GlistEngine that provides a 2D object that can be defined dynamically.
+This is a plugin for GlistEngine that allows a simple Entity Component System.
 
 ## How to use?
 1. Include the plugin in GlistApp's `CMakeLists.txt` file:
